@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+    <head>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="css/contact.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="navBar">
+            <a><div class="menuIcon" onclick="iconClick(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div></a>
+            <a href="index.html">Home</a>
+            <a class="active" href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="cart.html">Cart</a>
+        </div>
+        <div class="container">
+            <form action="action_page.php">
+            
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="city">City</label>
+                <select id="city" name="city">
+                <option value="spicer">Spicer</option>
+                <option value="willmar">Willmar</option>
+                <option value="albany">Albany</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Tell me about your future orders" style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+            </form>
+        </div>
+    </body>
+</html>

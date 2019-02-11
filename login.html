@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+    <head>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="js/master.js"></script>
+    </head>
+    <body>
+        <div id="navBar">
+            <a><div class="menuIcon" onclick="iconClick(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div></a>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a class="active" href="login.html">Login</a>
+            <a href="cart.html">Cart</a>
+        </div>
+        <form action="/action_page.php">
+            <div class="container">
+                <label for="accEmail">Account Email: </label>
+                <input type="text" placeholder="xxx@email.com" name="accEmail" required>
+                <label for="psw">Password: </label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <button id="loginBtn" type="submit">Login</button>
+            </div>
+        </form>
+    </body>
+</html>
